@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body >div {
+    padding: 12px 20%;
+}
+
+.header,.footer, .hero{
+    background-color: #1F2937;
+}
+
+
+
+/*header section*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-family: Hero, sans-serif;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 16px;
+}
+
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*hero section*/
+.hero {
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: stretch;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #f9faf8;
+    gap: 12px;
+}
+
+.hero > * {
+    width: 50%;
+}
+
+.hero > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.hero h1 {
+    
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    line-height: 0.9;
+    
+}
+.hero img {
+    height: auto;
+    object-fit: cover;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 10%;
+    color: white;
+}
+
+/*infmration section*/
+
+.informationSection  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.informationSection h2 {
+    font-size: 36px;
+    font-weight:900;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 2px;
+}
+
+
+/*quote section*/
+
+.quoteSection {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: 100;
+    
+}
+
+.quoteSection > * {
+    margin: 48px;
+}
+
+.quoteSection div {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+/*call to action*/
+.callToActionSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callToActionContainer {
+    background-color: #3882f6;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    padding: 40px 80px;
+    color: white;
+}
+
+.callToActionContainer button {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 4px 16px;
+}
+
+
+/*footer*/
+
+.footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
